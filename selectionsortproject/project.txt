@@ -1,0 +1,33 @@
+1.adım ilk başta 27 kontrol edilir. 
+
+[22,27,16,2,18,6] haline gelir.
+
+2.adım olarak 16 kontrol edilir.
+
+[16,22,27,2,18,6] haline gelir. 
+
+3.adım olarak 2 kontrol edilir. 
+
+[2,16,22,27,18,6] haline gelir. 
+
+4.adım olarak 18 kontrol edilir. 
+
+[2,16,18,22,27,6] haline gelir. 
+
+5.adım olarak 6 kontrol edilir. 
+
+[2,6,16,18,22,27] haline gelir. ve bu şekilde selection sort yapmış oluruz. 
+
+n + (n-1) + (n-2) + .... + 1 şeklinde olduğundan n.(n+1) / 2 den  O(n^2) şeklinde Big O gösterimi yapabiliriz. 
+
+18 ortalara yakın olduğu için 1.Average case'e girer. 
+
+[7,3,5,8,2,9,4,15,6] dizisinde
+
+[2,3,5,8,7,9,4,15,6] olur 1.adımda minimum 2 başa attık
+
+2.adımda [2,3,5,8,7,9,4,15,6] 
+
+3.adımda [2,3,4,8,7,9,5,15,6] 
+
+4.adımda [2,3,4,5,7,9,8,15,6] 
